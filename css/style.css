@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: inter;
+}
+.nav-link {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #0d0a19;
+  text-align: left;
+  margin-right: 20px;
+}
+.sign-up {
+  color: #666;
+}
+.sign-up img {
+  margin-right: 10px;
+  background-color: #f5f6f7;
+  width: 30px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+.hero-section {
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 560px;
+}
+.text-wrap h1 {
+  font-weight: 700;
+  padding-top: 10%;
+  padding-bottom: 20px;
+}
+.hero-footer {
+  background-color: #666;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  left: 0;
+}
+.hero-footer p {
+  color: #999;
+  text-align: left;
+  position: relative;
+  top: 8px;
+}
+.cus-border {
+  border-right: 1px solid #0d0a19;
+  position: relative;
+  top: -46px;
+  left: 108px;
+  font-size: 40px;
+  opacity: 0.5;
+}
+.without-p {
+  margin-top: 41px;
+}
+.search {
+  background-color: rgb(68, 0, 255);
+  border-radius: 10px;
+  margin-top: 36px;
+  display: flex;
+  padding: 4px 0;
+}
+.search p,
+img {
+  color: white;
+}
+.search img {
+  margin-left: 46px;
+}
+.search p {
+  margin-left: 16px;
+}
+.active-auction h3,
+p {
+  color: #666;
+}
+.prev-img {
+  margin-right: 10px;
+}
+.card {
+  border: none;
+}
+.card-body a {
+  margin-top: 28px;
+}
+.buy-btn {
+  background-color: #666;
+  color: white;
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 575px) {
+  .hero-footer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 0;
+  }
+  .cus-border {
+    border: none;
+  }
+  .search img {
+    margin-left: 166px;
+  }
+  .logo-section {
+    margin-top: 230px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+  .logo-section img {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-footer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 0;
+  }
+  .cus-border {
+    border: none;
+  }
+  .search img {
+    margin-left: 186px;
+  }
+  .logo-section {
+    margin-top: 320px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+  .logo-section img {
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-footer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 0;
+  }
+  .cus-border {
+    border: none;
+  }
+  .search img {
+    margin-left: 286px;
+  }
+  .logo-section {
+    margin-top: 290px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+  .logo-section img {
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .cus-border {
+    border-right: 1px solid #0d0a19;
+    position: relative;
+    top: -46px;
+    left: 78px;
+    font-size: 35px;
+    opacity: 0.5;
+  }
+  .without-p {
+    margin-top: 41px;
+  }
+
+  .search p,
+  img {
+    color: white;
+  }
+  .search img {
+    margin-left: 26px;
+  }
+  .search p {
+    margin-left: 6px;
+  }
+  .logo-section {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+  .logo-section img {
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .cus-border {
+    border-right: 1px solid #0d0a19;
+    position: relative;
+    top: -46px;
+    left: 94px;
+    font-size: 35px;
+    opacity: 0.5;
+  }
+  .without-p {
+    margin-top: 41px;
+  }
+
+  .search p,
+  img {
+    color: white;
+  }
+  .search img {
+    margin-left: 36px;
+  }
+  .search p {
+    margin-left: 6px;
+  }
+  .logo-section {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+  .logo-section img {
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 4000px) {
+  .cus-border {
+    border: none;
+  }
+  .without-p {
+    margin-top: 41px;
+  }
+
+  .search p,
+  img {
+    color: white;
+  }
+  .search img {
+    margin-left: 36px;
+  }
+  .search p {
+    margin-left: 6px;
+  }
+  .logo-section {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+  .logo-section img {
+    padding: 10px 0;
+  }
+}
